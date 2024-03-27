@@ -1,0 +1,77 @@
+#bar {
+  /* display: flex; */
+  display: none;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0%;
+  z-index: 100;
+}
+.section-right {
+  background-color: rgba(0, 0, 0, 0.881);
+  position: relative;
+  width: calc(100vw - 356px);
+}
+.x {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.x i {
+  font-size: 35px;
+  color: #fff;
+}
+.section-left {
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  background-color: aliceblue;
+  width: 356px;
+  color: black;
+}
+.head {
+  height: 50px;
+  color: #fff;
+  align-items: center;
+  background-color: #232f3e;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 0 40px;
+  gap: 10px;
+  font-size: 17px;
+
+  font-weight: 900;
+}
+.head .profile {
+  overflow: hidden;
+  color: #232f3e;
+  border: none;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  font-size: 17px;
+  text-align: center;
+  background-color: #fff;
+}
+.tittle-p {
+  padding: 20px;
+}
+h5,
+.tittle-p i,
+.tittle-p p {
+  line-height: 50px;
+}
+.tittle-p div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tittle-p div:hover {
+  background-color: rgb(234, 236, 236);
+  opacity: 0.9;
+}
+.tittle-p p {
+  font-size: 14px;
+}
+.tittle-p h5 {
+  font-size: 18px;
+}

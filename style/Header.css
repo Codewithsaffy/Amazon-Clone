@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* todo<!--todo header  --> */
+html {
+  font-size: 10px;
+}
+body {
+  background-color: rgb(153, 246, 255);
+}
+.navebar {
+  font-size: 1.6rem;
+  justify-content: space-evenly;
+  height: 60px;
+  align-items: center;
+  background-color: #131921;
+  color: #fff;
+  display: flex;
+  position: relative;
+}
+/*! <!-- amz logo section  --> */
+
+.nav-logo {
+  height: 50px;
+  width: 128px;
+}
+.logo {
+  background-image: url("/box/amazon_logo.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+}
+.border {
+  border: 2px solid transparent;
+  padding: 5px;
+}
+.border:hover {
+  border: 1.5px solid white;
+  border-radius: 2px;
+}
+/*! <!-- Delivery section  --> */
+
+.del-logo {
+  display: flex;
+}
+.del-logo .adr2 {
+  font-size: 1.4rem;
+  margin-left: 3px;
+  color: #ffff;
+  font-weight: 700;
+}
+.delivery {
+  padding: 5px;
+}
+.delivery i {
+  color: #0565e2;
+}
+.adr1 {
+  font-size: 1.2rem;
+  color: #cccc;
+  margin-left: 15px;
+}
+/*! <!-- search section  --> */
+
+.nav-search {
+  justify-content: space-evenly;
+  display: flex;
+  height: 40px;
+  width: 720px;
+  background-color: rgb(134, 106, 106);
+  border-radius: 4px;
+}
+.nav-search:hover {
+  border: 3px solid orange;
+  border-collapse: collapse;
+}
+.search-select {
+  height: 100%;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  background-color: #e6e6e6;
+  color: #3b2c2ccc;
+}
+.search-input {
+  width: 100%;
+  font-size: 14px;
+  padding: 0 10px;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+input:focus-visible {
+  outline: none;
+}
+.search-icon {
+  display: flex;
+  width: 50px;
+  background-color: rgb(154, 199, 64);
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.search-icon i {
+  font-size: 2.2rem;
+  color: #131921;
+}
+/*! LANGUAGE section  */
+.language {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  padding: 15px 4px 0;
+}
+.language i {
+  color: #7d8288;
+  margin-left: 2px;
+}
+.en {
+  font-size: 0.8rem;
+  font-weight: 800;
+  /* text-align: center; */
+}
+.language img {
+  /* text-align: center; */
+  height: 13.5px;
+}
+/*! <!-- !Account and List and order  --> */
+p span {
+  font-size: 1.2rem;
+  line-height: 12px;
+}
+.p-1 i {
+  color: #7d8288;
+  margin-left: 2px;
+}
+.p-1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+/* Cart  */
+.nav-cart i {
+  font-size: 3.9rem;
+  color: #d79900;
+}
+i {
+  overflow: hidden;
+}
+.nav-cart span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* PNAEL SECTION  */
+.panel {
+  font-size: 14px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 39px;
+  width: 100%;
+  background-color: #232f3e;
+  color: #fff;
+  justify-content: space-evenly;
+}
+.all i {
+  font-size: 1.8rem;
+  margin-right: 3px;
+}
+.all {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.panel-opt {
+  display: flex;
+  gap: 15px;
+  width: 78%;
+  font-size: 1.4rem;
+}
+.panel-deals {
+  overflow: hidden;
+  font-weight: 700;
+}
